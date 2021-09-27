@@ -1,0 +1,60 @@
+import React from 'react';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import {AiOutlineHome, AiOutlineFlag, AiOutlineSetting} from 'react-icons/ai';
+
+export const HeaderNav = () => {
+    return(
+        <Container>
+            <Wrapper>
+               <Logo/>
+               <NavLink>
+               <TheLink to = '/' ><AiOutlineHome/></TheLink>
+               <TheLink to = '/Project2'><AiOutlineSetting/></TheLink>
+               <TheLink to = '/project'><AiOutlineFlag/></TheLink>
+               </NavLink>
+            </Wrapper>
+        </Container>
+    );
+};
+
+const NavLink = styled.div`
+dibsplay: flex;
+`;
+const TheLink = styled(Link)`
+margin: 0 10px;
+color: black;
+text-decoration: none; 
+width: 60px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+transition: all 350ms;
+background-color: rgba(0, 0, 0, 0.1);
+
+:hover{
+    background-color: teal;
+}
+ `;
+const Logo = styled.img`
+width: 300px;
+height:50px;
+background-color: plum;
+object-fit: contain;
+`;
+
+const Container = styled.div`
+width: 100%
+height: 100px;
+background-color: pink;
+color: blue;
+`;
+const Wrapper = styled.div`
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+`;
