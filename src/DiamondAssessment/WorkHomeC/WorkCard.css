@@ -1,0 +1,69 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-color: black;
+    border-radius: 0% ;
+}
+
+.container_wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container_card{
+    width: 200px;
+    border-radius: 10px;
+    background-color: white ;
+    color: black;
+    padding:  20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    color: black;
+    padding-top: 20px;
+}
+
+.container_cardRow{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container_cardRowCancel{
+    color: red;
+    font-size: 20px;
+}
+
+.container_cardRowName{
+    margin: 10px 0;
+    font-weight: bold;
+    color: sienna;
+    font-family: Poppins;
+}
+
+.container_cardRowTime{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.container_cardRowQuote{
+    text-align: center;
+    font-style: italic;
+}
+
+.container_cardRowAvatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rosybrown;
+
+}
+
+
+

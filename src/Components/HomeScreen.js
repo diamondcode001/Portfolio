@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Input} from "antd";
-import {BiLeftArrow, BiRightArrow} from "react-icons/bi";
+import {BiLeftArrow,BiRightArrow} from "react-icons/bi";
 import "./HomeScreen.css"
 
 const HomeScreen = () => {

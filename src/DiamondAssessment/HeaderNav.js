@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import {AiOutlineHome,AiOutlineSetting,AiOutlineFlag} from 'react-icons/ai';
 
-export const HeaderNav = () => {
+ const HeaderNav = () => {
     return(
         <Container>
             <Wrapper>
@@ -19,6 +19,8 @@ export const HeaderNav = () => {
         </Container>
     );
 };
+
+export default HeaderNav;
 
 const NavLink = styled.div`
 dibsplay: flex;

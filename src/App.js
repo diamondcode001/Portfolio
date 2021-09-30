@@ -7,22 +7,28 @@ import NewGitHub from './Components/OurBuild/NewGitHub';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {DommyHome, DommyScreen, DommySetting} from './Components/TextComp/DommyScreen';
 import { HeaderNav } from './Components/TextComp/HeaderNav';
-import Project2 from './Components/Project2/Project2'
-
+import Project2 from './Components/Project2/Project2';
+import WorkHomeC from './Components/WorkHomeC/WorkHome';
+import CounterProject from './Components/CounterProject/Counter';
+import SimpleGame from './Components/SimpleGame/GameScreen';
+import Mother from './DiamondAssessment/Mother'
 
 const App = () => {
   return (
-    
-    <Router>
+    <div>
+       <Mother/>
+    </div>
+ /* <Router>
+     
       <HeaderNav/>
       <Switch>
-      <Route path= '/' exact component = {DommyHome}/>
-        <Route path= '/about' exact component = {DommyScreen}/>
-         <Route path= '/setting' exact component = {DommySetting}/>
-        <Route path= '/Project2' exact component = {Project2}/>
+      <Route path= '/Project2' exact component = {Project2}/>
+        <Route path= '/CounterProject' exact component = {CounterProject}/>
+         <Route path= '/WorkHomeC' exact component = {WorkHomeC}/>
+        <Route path= '/GameScreen' exact component = {GameScreen}/>
         <Route path= '/NewGitHub' exact component = {NewGitHub}/>
       </Switch>
-    </Router>
+    </Router>*/
   );
 };
 export default App;
