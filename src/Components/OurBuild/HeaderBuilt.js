@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components';
-import img from "../img/gitimg.svg";
+// import img from "../img/gitimg.svg";
 
 const HeaderBuilt = () => {
     return (
        <Container>
-           <Image src={img}/>
+           <Image/>
            <Wrapper>
                <Diamond clr>Overview</Diamond>
                <Diamond>Release Notes</Diamond>

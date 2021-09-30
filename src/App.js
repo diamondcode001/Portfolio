@@ -12,11 +12,12 @@ import WorkHomeC from './Components/WorkHomeC/WorkHome';
 import CounterProject from './Components/CounterProject/Counter';
 import SimpleGame from './Components/SimpleGame/GameScreen';
 import Mother from './DiamondAssessment/Mother'
+import PortMother from './Portfolio1/PortMother'
 
 const App = () => {
   return (
     <div>
-       <Mother/>
+       <PortMother/>
     </div>
  /* <Router>
      

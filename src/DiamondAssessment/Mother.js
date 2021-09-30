@@ -4,7 +4,7 @@ import HeaderNav from './HeaderNav'
 import Project2 from './Project2/MyGlobal'
 import CounterProject from './CounterProject/Counter'
 import WorkHomeC from './WorkHomeC/WorkHome'
-import GameScreen from './GameScreen/SimpleGame';
+import GameScreen from '../Components/SimpleGame/GameScreen';
 import NewGitHub from './OurBuild/NewGitHub';
 
 
