@@ -41,6 +41,8 @@ margin: 0 30px;
 `;
 const Title = styled.div`
 font-size: 30px;
+font-weight: bold;
+margin: 5px 0;
 `;
 const Desc = styled.div`
 margin-top: 10px;
@@ -59,8 +61,12 @@ const Container = styled.div`
 width: 100%;
 height: 100%;
 min-height: 80vh;
-background-color: plum;
+background-color: ;
 color: white;
+font-family: Poppins;
+background-image: url("sitemile.jpeg");
+background-repeat: no-repeat;
+background-position: center;
 `;
 const Wrapper = styled.div`
 display: flex;

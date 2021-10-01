@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const ContactSection = () => {
     return (
         <Container>
-        <Wrapper>jhbhjb</Wrapper>
+        <Wrapper></Wrapper>
     </Container>
     )
 }
@@ -18,4 +18,9 @@ min-height: 100vh;
 background-color: brown;
 color: white;
 `;
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+`;

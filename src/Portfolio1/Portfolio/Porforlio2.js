@@ -1,12 +1,10 @@
 import React from 'react'
 import styled from 'styled-components';
 import logo from './portimg.jpg';
-import {AiOutlineHome} from 'react-icons/ai'
-import {MdOndemandVideo} from 'react-icons/md';
-import {GrBusinessService} from 'react-icons/gr';
-import {MdContactPhone} from 'react-icons/md';
-
-
+import HomeIcon from '@mui/icons-material/Home';
+import HomeRepairServiceIcon from '@mui/icons-material/HomeRepairService';
+import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
+import ContactsIcon from '@mui/icons-material/Contacts';
 
 
 const Portfolio2 = () => {
@@ -17,19 +15,19 @@ const Portfolio2 = () => {
                 <Logo src ={logo}/>
                 <Navigator>
                     <Nav>
-                        <p><AiOutlineHome/></p>
+                    < HomeIcon/>
                         <span>Home</span>
-                    </Nav>
+                        </Nav>
                     <Nav>
-                        <p><GrBusinessService/></p>
+                    < HomeRepairServiceIcon/>
                         <span>Service</span>
                     </Nav>
                     <Nav>
-                        <p><MdOndemandVideo/></p>
+                    < OndemandVideoIcon/>
                         <span>Video</span>
                     </Nav>
                     <Nav>
-                        <p><MdContactPhone/></p>
+                    < ContactsIcon/>
                         <span>Contact</span>
                     </Nav>
                 </Navigator>
@@ -64,19 +62,11 @@ font-weight: bold;
 `;
 
 const Nav = styled.div`
-display: flex;
-align-items: center;
-margin: 0 10px;
-
-p{
-    font-size: 20px;
-    margin-right: 5px;
-    color: rgba(255, 255, 255, 0.7);
-    transition: all 400ms;
-}
-
+margin:0 10px;
+font-size:20px;
 span{
     text-transform: uppercase;
+    margin-left:8px;
     font-weight: bold;
     letter-spacing: 1px;
     position: relative;
@@ -114,7 +104,7 @@ flex: 1;
 const Container = styled.div`
 width: 100%;
 height: 80px;
-background-color: #011834;
+background-color: black;
 color: white;
 
 `;
@@ -126,8 +116,9 @@ display: flex;
 align-items: center;
 `;
 const Logo = styled.img`
-width: 180px;
-height: 50px;
+width: 100px;
+height: 60px;
 object-fit: contain;
 margin: 0 30px;
+background-color: red;
 `;
